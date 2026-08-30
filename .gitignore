@@ -1,0 +1,24 @@
+# Ignore macOS and OS metadata files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Ignore all files by default
+*
+
+# Allow directories so git can traverse into subdirectories
+!*/
+
+# Allow slides (PPT, PPTX, PDF)
+!*.[Pp][Pp][Tt]
+!*.[Pp][Pp][Tt][Xx]
+!*.[Pp][Dd][Ff]
+
+# Allow notes and prompt markdown files
+!*[Nn][Oo][Tt][Ee]*.md
+!*[Pp][Rr][Oo][Mm][Pp][Tt]*.md
+
+# Allow repository configuration and documentation
+!.gitignore
+!README.md

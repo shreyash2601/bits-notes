@@ -15,9 +15,9 @@ Thumbs.db
 !*.[Pp][Pp][Tt][Xx]
 !*.[Pp][Dd][Ff]
 
-# Allow notes and prompt markdown files
-!*[Nn][Oo][Tt][Ee]*.md
-!*[Pp][Rr][Oo][Mm][Pp][Tt]*.md
+# Allow markdown documentation, notes, and prompts
+!*.md
+!*.MD
 
 # Allow repository configuration and documentation
 !.gitignore
